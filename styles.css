@@ -305,6 +305,25 @@ p {
   margin-bottom: 25px;
 }
 
+.list-footer-one {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 426px 1px 276px 1fr;
+  column-gap: 15px;
+}
+
+.end-footer-section {
+  display: grid;
+  grid-template-columns: 745px 1fr;
+  column-gap: 8px;
+}
+
+.weather {
+  display: grid;
+  column-gap: 24px;
+  grid-template-columns: 276px 1fr;
+}
+
 /* font-family: "Roboto Mono",monospace;
 font-family: "Nova Cut",system-ui;
 font-family: "Comic Neue",cursive;
