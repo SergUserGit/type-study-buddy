@@ -183,6 +183,76 @@ p {
   margin-bottom: 40px;
 }
 
+.ageofemperes-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122%;
+  width: 276px;
+  color: #000;
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 24px;
+}
+
+.ageofemperes-ph {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 32px;
+}
+
+.ageofemperes-ph-main {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  width: 276px;
+}
+
+.ageofemperes-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 276px 1px 276px 1fr;
+  column-gap: 15px;
+  align-items: center;
+}
+
+
+.ageofemperes-line-one {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  width: 0px;
+  height: 388px;
+}
+
+.ageofemperes-title-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122%;
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.ageofemperes-ph-two {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 32px;
+}
+
+.ageofemperes-ph-maintwo {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  width: 276px;
+}
+
 /* font-family: "Roboto Mono",monospace;
 font-family: "Nova Cut",system-ui;
 font-family: "Comic Neue",cursive;
