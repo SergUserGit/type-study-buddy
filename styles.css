@@ -315,13 +315,139 @@ p {
 .end-footer-section {
   display: grid;
   grid-template-columns: 745px 1fr;
-  column-gap: 8px;
+  column-gap: 20px;
+  margin-bottom: 50px;
+}
+
+.list-footer-phthree {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  width: 276px;
+}
+
+.weather-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 167%;
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.weather-ph-one {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  font-family: "Fira Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 32px;
+}
+
+.weather-ph-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  width: 276px;
+}
+
+.weather-ph-three {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  font-family: "Fira Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 24px;
+}
+
+.weather-ph-four {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  width: 1026px;
+}
+
+.list-footer-splittwo {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  width: 0px;
+  height: 622px;
 }
 
 .weather {
   display: grid;
   column-gap: 24px;
   grid-template-columns: 276px 1fr;
+  margin-bottom: 40px;
+}
+
+.weather-splitter {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  width: 1026px;
+  height: 0px;
+  margin-bottom: 40px;
+}
+
+.weather-title-two {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 112%;
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.list-footer-img {
+  margin-bottom: 32px;
+}
+
+.list-footer-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122%;
+  width: 400px;
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.list-footer-phone {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  font-family: "Fira Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.list-footer-phtwo {
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  font-family: "Fira Sans", sans-serif;
+  width: 426px;
+}
+
+.list-footer-splitone {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  width: 0;
+  height: 624px;
+}
+
+.list-footer-titletwo {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122%;
+  color: #000;
+  width: 276px;
+  margin-bottom: 18px;
 }
 
 /* font-family: "Roboto Mono",monospace;
