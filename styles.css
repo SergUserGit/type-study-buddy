@@ -450,6 +450,40 @@ p {
   margin-bottom: 18px;
 }
 
+.day-backgrd {
+  background: #000;
+  border: 1px solid #000;
+}
+
+.day-font {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  font-family: "Fira Sans", sans-serif;
+  color: #fff;
+  padding-left: 12px;
+}
+
+.temp-font {
+  border: 1px solid #000;
+  padding-left: 12px;
+}
+
+.weather-table {
+  border-collapse: collapse;
+}
+
+.time-font {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  font-family: "Fira Sans", sans-serif;
+  color: #000;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  padding-left: 12px;
+}
+
 /* font-family: "Roboto Mono",monospace;
 font-family: "Nova Cut",system-ui;
 font-family: "Comic Neue",cursive;
