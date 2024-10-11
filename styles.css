@@ -34,6 +34,13 @@ p {
   max-width: 1776px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .container {
+    max-width: 290px;
+  }
+}
+
+
 .header-title {
   font-weight: 400;
   font-size: 72px;
@@ -41,6 +48,17 @@ p {
   color: #000;
   font-family: "Nova Cut", system-ui;
 }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+  .header-title {
+    font-size: 64px;
+    text-align: center;
+    width: 290px;
+  }
+
+}
+
 
 .header-ph {
   font-weight: 400;
@@ -51,11 +69,44 @@ p {
   justify-self: center;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .header-ph {
+    font-size: 12px;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .group-ellipse-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .group-ellipse-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+}
+
 .group-header {
   display: grid;
   grid-template-columns: 663px;
   row-gap: 24px;
   align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .group-header {
+    display: grid;
+    grid-template-columns: 290px;
+  }
 }
 
 .header-wrapper {
@@ -65,11 +116,24 @@ p {
   margin-bottom: 33px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .header-wrapper {
+    display: grid;
+    grid-template-columns: 290px;
+  }
+}
+
 .header-splitter {
   width: 1776px;
   height: 0px;
   border: 1px solid rgba(0, 0, 0, 0.25);
   margin-bottom: 34px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .header-splitter {
+    width: 290px;
+  }
 }
 
 .header {
@@ -484,9 +548,7 @@ p {
   padding-left: 12px;
 }
 
-/* font-family: "Roboto Mono",monospace;
-font-family: "Nova Cut",system-ui;
-font-family: "Comic Neue",cursive;
-font-family: "Fira Mono",monospace;
-font-family: "Fira Sans",sans-serif;
- */
+/*@media screen and (min-width: 320px) and (max-width: 479px) {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  */
