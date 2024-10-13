@@ -190,6 +190,14 @@ p {
   margin-bottom: 33px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .hero-list {
+    display: grid;
+    grid-template-columns: 290px;
+    row-gap: 16px;
+  }
+}
+
 .hero-list-titleone {
   font-weight: 700;
   font-size: 64px;
@@ -198,6 +206,14 @@ p {
   font-family: "Fira Sans", sans-serif;
   color: #000;
   margin-bottom: 18px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .hero-list-titleone {
+    font-size: 56px;
+    width: 290px;
+    text-align: center;
+  }
 }
 
 .hero-list-spanone {
@@ -210,6 +226,12 @@ p {
   margin-bottom: 25px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .hero-list-spanone {
+    text-align: center;
+  }
+}
+
 .hero-list-pgone {
   width: 506px;
   font-weight: 400;
@@ -219,8 +241,30 @@ p {
   color: #000;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .hero-list-pgone {
+    font-size: 14px;
+    width: 290px;
+    text-align: center;
+  }
+}
+
 .img_frame {
   margin-bottom: 16px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .img_frame {
+    width: 290px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .grouo_img_frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .img_caption {
@@ -229,6 +273,13 @@ p {
   line-height: 133%;
   font-family: "Fira Sans", sans-serif;
   color: #000;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .img_caption {
+    text-align: center;
+    width: 290px;
+  }
 }
 
 .hero-list-titletwo {
@@ -241,6 +292,14 @@ p {
   margin-bottom: 18px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .hero-list-titletwo {
+    width: 290px;
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
 .hero-list-spantwo {
   font-weight: 400;
   font-size: 12px;
@@ -251,6 +310,12 @@ p {
   margin-bottom: 25px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .hero-list-spantwo {
+    text-align: center;
+  }
+}
+
 .hero-list-pgtwo {
   font-weight: 400;
   font-size: 18px;
@@ -259,11 +324,25 @@ p {
   color: #000;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .hero-list-pgtwo {
+    font-size: 14px;
+    width: 290px;
+    text-align: center;
+  }
+}
+
 .second-line {
   border: 1px solid rgba(0, 0, 0, 0.25);
   width: 1776px;
   height: 0px;
   margin-bottom: 40px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .second-line {
+    width: 290px;
+  }
 }
 
 .ageofemperes-title {
