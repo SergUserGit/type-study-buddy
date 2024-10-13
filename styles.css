@@ -355,6 +355,14 @@ p {
   margin-bottom: 24px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .ageofemperes-title {
+    font-size: 24px;
+    width: 290px;
+    text-align: center;
+  }
+}
+
 .ageofemperes-ph {
   font-weight: 400;
   font-size: 12px;
@@ -362,6 +370,12 @@ p {
   color: rgba(0, 0, 0, 0.5);
   font-family: "Fira Sans", sans-serif;
   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .ageofemperes-ph {
+    text-align: center;
+  }
 }
 
 .ageofemperes-ph-main {
@@ -373,6 +387,13 @@ p {
   width: 276px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .ageofemperes-ph-main {
+    text-align: center;
+    width: 290px;
+  }
+}
+
 .ageofemperes-list {
   list-style: none;
   display: grid;
@@ -381,11 +402,25 @@ p {
   align-items: center;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .ageofemperes-list {
+    display: grid;
+    grid-template-columns: 290px;
+    row-gap: 10px;
+  }
+}
 
 .ageofemperes-line-one {
   border: 1px solid rgba(0, 0, 0, 0.25);
   width: 0px;
   height: 388px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .ageofemperes-line-one {
+    width: 290px;
+    height: 0px;
+  }
 }
 
 .ageofemperes-title-two {
@@ -397,6 +432,14 @@ p {
   margin-bottom: 24px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .ageofemperes-title-two {
+    font-size: 28px;
+    text-align: center;
+    width: 290px;
+  }
+}
+
 .ageofemperes-ph-two {
   font-weight: 400;
   font-size: 12px;
@@ -404,6 +447,12 @@ p {
   color: rgba(0, 0, 0, 0.5);
   font-family: "Fira Sans", sans-serif;
   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .ageofemperes-ph-two {
+    text-align: center;
+  }
 }
 
 .ageofemperes-ph-maintwo {
@@ -415,6 +464,13 @@ p {
   width: 276px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .ageofemperes-ph-maintwo {
+    text-align: center;
+    width: 290px;
+  }
+}
+
 .discovered {
   display: grid;
   grid-template-columns: 590px 1fr;
@@ -422,6 +478,14 @@ p {
   align-items: center;
   margin-bottom: 25px;
 
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .discovered {
+    display: grid;
+    grid-template-columns: 290px;
+    row-gap: 15px;
+  }
 }
 
 .another-swarm-title {
@@ -434,6 +498,14 @@ p {
   margin-bottom: 24px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .another-swarm-title {
+    font-size: 40px;
+    text-align: center;
+    width: 290px;
+  }
+}
+
 .another-swarm-ph {
   font-weight: 400;
   font-size: 12px;
@@ -443,12 +515,26 @@ p {
   margin-bottom: 32px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .another-swarm-ph {
+    text-align: center;
+  }
+}
+
 .another-swarm-list {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 276px) 1fr;
   column-gap: 25px;
   align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .another-swarm-list {
+    display: grid;
+    grid-template-columns: 290px;
+    row-gap: 10px;
+  }
 }
 
 .another-swarm-list-ph {
@@ -460,11 +546,24 @@ p {
   width: 276px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .another-swarm-list-ph {
+    text-align: center;
+    width: 290px;
+  }
+}
+
 .section-splitter {
   border: 1px solid rgba(0, 0, 0, 0.25);
   width: 1776px;
   height: 0px;
   margin-bottom: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .section-splitter {
+    width: 290px;
+  }
 }
 
 .list-footer-one {
